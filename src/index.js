@@ -20,14 +20,6 @@ let day = 0;
 
 setInterval(() => {
     seg++
-   /* let num1 = Math.floor(seg / 1);   
-    seg++     */
-       
-   /* let num2 = Math.floor(min / 60);
-       
-    let num3 = Math.floor(hour / 3600);
-        
-    let num4 = Math.floor(day / 86400);*/
 
 ReactDOM.render(<Home name={"Contador"} num1={seg} num2={min} num3={hour} num4={day} />, document.querySelector("#root"));
 
